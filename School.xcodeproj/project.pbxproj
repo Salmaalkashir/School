@@ -19,6 +19,9 @@
 		1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1C2D6BAC95009719FC /* LoginNetworing.swift */; };
 		1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1E2D6BACAC009719FC /* LoginModel.swift */; };
 		1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE202D6BACCF009719FC /* LoginAPI.swift */; };
+		1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */; };
+		1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */; };
+		1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */; };
 		E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D32D6BA8580025B826 /* AppDelegate.swift */; };
 		E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D52D6BA8580025B826 /* SceneDelegate.swift */; };
 		E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19210DC2D6BA85A0025B826 /* Assets.xcassets */; };
@@ -57,6 +60,9 @@
 		1E73EE1C2D6BAC95009719FC /* LoginNetworing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworing.swift; sourceTree = "<group>"; };
 		1E73EE1E2D6BACAC009719FC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
 		1E73EE202D6BACCF009719FC /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
+		1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		E19210D02D6BA8580025B826 /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19210D32D6BA8580025B826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19210D52D6BA8580025B826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -146,6 +152,7 @@
 		1E73EE042D6BAAD4009719FC /* Resoures */ = {
 			isa = PBXGroup;
 			children = (
+				1E73EE222D6BBA46009719FC /* fonts */,
 			);
 			path = Resoures;
 			sourceTree = "<group>";
@@ -201,6 +208,16 @@
 				1E73EE172D6BAC56009719FC /* LoginVC.xib */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		1E73EE222D6BBA46009719FC /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */,
+				1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */,
+				1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */,
+			);
+			path = fonts;
 			sourceTree = "<group>";
 		};
 		E19210C72D6BA8580025B826 = {
@@ -362,6 +379,9 @@
 				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
+				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
+				1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */,
+				1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
