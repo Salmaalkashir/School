@@ -7,10 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
+		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
+		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
+		1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE092D6BAB3F009719FC /* Constant.swift */; };
+		1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE0B2D6BAB56009719FC /* TargetType.swift */; };
+		1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1E73EE0E2D6BAB85009719FC /* Alamofire */; };
+		1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE172D6BAC56009719FC /* LoginVC.xib */; };
+		1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE162D6BAC56009719FC /* LoginVC.swift */; };
+		1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1A2D6BAC64009719FC /* LoginViewModel.swift */; };
+		1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1C2D6BAC95009719FC /* LoginNetworing.swift */; };
+		1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1E2D6BACAC009719FC /* LoginModel.swift */; };
+		1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE202D6BACCF009719FC /* LoginAPI.swift */; };
 		E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D32D6BA8580025B826 /* AppDelegate.swift */; };
 		E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D52D6BA8580025B826 /* SceneDelegate.swift */; };
-		E19210D82D6BA8580025B826 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D72D6BA8580025B826 /* ViewController.swift */; };
-		E19210DB2D6BA8580025B826 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E19210DA2D6BA8580025B826 /* Base */; };
 		E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19210DC2D6BA85A0025B826 /* Assets.xcassets */; };
 		E19210E02D6BA85A0025B826 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E19210DF2D6BA85A0025B826 /* Base */; };
 		E19210EB2D6BA85A0025B826 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210EA2D6BA85A0025B826 /* SchoolTests.swift */; };
@@ -36,11 +46,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E73EE022D6BAAAD009719FC /* NibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
+		1E73EE052D6BAB14009719FC /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
+		1E73EE072D6BAB29009719FC /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
+		1E73EE092D6BAB3F009719FC /* Constant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		1E73EE0B2D6BAB56009719FC /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
+		1E73EE162D6BAC56009719FC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		1E73EE172D6BAC56009719FC /* LoginVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginVC.xib; sourceTree = "<group>"; };
+		1E73EE1A2D6BAC64009719FC /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		1E73EE1C2D6BAC95009719FC /* LoginNetworing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginNetworing.swift; sourceTree = "<group>"; };
+		1E73EE1E2D6BACAC009719FC /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		1E73EE202D6BACCF009719FC /* LoginAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginAPI.swift; sourceTree = "<group>"; };
 		E19210D02D6BA8580025B826 /* School.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = School.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19210D32D6BA8580025B826 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E19210D52D6BA8580025B826 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E19210D72D6BA8580025B826 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E19210DA2D6BA8580025B826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E19210DC2D6BA85A0025B826 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E19210DF2D6BA85A0025B826 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E19210E12D6BA85A0025B826 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +96,113 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E73EDFD2D6BAA33009719FC /* AppLayer */ = {
+			isa = PBXGroup;
+			children = (
+				E19210D32D6BA8580025B826 /* AppDelegate.swift */,
+				E19210DC2D6BA85A0025B826 /* Assets.xcassets */,
+				E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */,
+				E19210D52D6BA8580025B826 /* SceneDelegate.swift */,
+			);
+			path = AppLayer;
+			sourceTree = "<group>";
+		};
+		1E73EDFE2D6BAA3E009719FC /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE052D6BAB14009719FC /* BaseAPI.swift */,
+				1E73EE072D6BAB29009719FC /* BaseModel.swift */,
+				1E73EE092D6BAB3F009719FC /* Constant.swift */,
+				1E73EE0B2D6BAB56009719FC /* TargetType.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		1E73EDFF2D6BAA46009719FC /* School */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE102D6BABF1009719FC /* Modules */,
+			);
+			path = School;
+			sourceTree = "<group>";
+		};
+		1E73EE002D6BAA4D009719FC /* School-AppKit */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE042D6BAAD4009719FC /* Resoures */,
+				E19210E12D6BA85A0025B826 /* Info.plist */,
+			);
+			path = "School-AppKit";
+			sourceTree = "<group>";
+		};
+		1E73EE012D6BAA5E009719FC /* SchoolUIKit */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE022D6BAAAD009719FC /* NibViewController.swift */,
+			);
+			path = SchoolUIKit;
+			sourceTree = "<group>";
+		};
+		1E73EE042D6BAAD4009719FC /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		1E73EE102D6BABF1009719FC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE112D6BABFA009719FC /* Login */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		1E73EE112D6BABFA009719FC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE132D6BAC1E009719FC /* LoginVCNetworking */,
+				1E73EE122D6BAC0A009719FC /* Presentation */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		1E73EE122D6BAC0A009719FC /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE152D6BAC3E009719FC /* View */,
+				1E73EE142D6BAC32009719FC /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E73EE132D6BAC1E009719FC /* LoginVCNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE1C2D6BAC95009719FC /* LoginNetworing.swift */,
+				1E73EE1E2D6BACAC009719FC /* LoginModel.swift */,
+				1E73EE202D6BACCF009719FC /* LoginAPI.swift */,
+			);
+			path = LoginVCNetworking;
+			sourceTree = "<group>";
+		};
+		1E73EE142D6BAC32009719FC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE1A2D6BAC64009719FC /* LoginViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1E73EE152D6BAC3E009719FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E73EE162D6BAC56009719FC /* LoginVC.swift */,
+				1E73EE172D6BAC56009719FC /* LoginVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		E19210C72D6BA8580025B826 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +226,11 @@
 		E19210D22D6BA8580025B826 /* School */ = {
 			isa = PBXGroup;
 			children = (
-				E19210D32D6BA8580025B826 /* AppDelegate.swift */,
-				E19210D52D6BA8580025B826 /* SceneDelegate.swift */,
-				E19210D72D6BA8580025B826 /* ViewController.swift */,
-				E19210D92D6BA8580025B826 /* Main.storyboard */,
-				E19210DC2D6BA85A0025B826 /* Assets.xcassets */,
-				E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */,
-				E19210E12D6BA85A0025B826 /* Info.plist */,
+				1E73EDFD2D6BAA33009719FC /* AppLayer */,
+				1E73EDFE2D6BAA3E009719FC /* Networking */,
+				1E73EDFF2D6BAA46009719FC /* School */,
+				1E73EE002D6BAA4D009719FC /* School-AppKit */,
+				1E73EE012D6BAA5E009719FC /* SchoolUIKit */,
 			);
 			path = School;
 			sourceTree = "<group>";
@@ -215,6 +340,9 @@
 				Base,
 			);
 			mainGroup = E19210C72D6BA8580025B826;
+			packageReferences = (
+				1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -231,9 +359,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
-				E19210DB2D6BA8580025B826 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +386,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E19210D82D6BA8580025B826 /* ViewController.swift in Sources */,
+				1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */,
+				1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */,
+				1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */,
 				E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */,
+				1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */,
+				1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */,
+				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
+				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
+				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
+				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
+				1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +434,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E19210D92D6BA8580025B826 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E19210DA2D6BA8580025B826 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -444,10 +573,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99TN99P4UG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = School/Info.plist;
+				INFOPLIST_FILE = "School/School-AppKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -472,10 +600,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 99TN99P4UG;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = School/Info.plist;
+				INFOPLIST_FILE = "School/School-AppKit/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -607,6 +734,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1E73EE0E2D6BAB85009719FC /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E19210C82D6BA8580025B826 /* Project object */;
 }
