@@ -15,6 +15,7 @@ protocol LoginAPIProtocol {
 
 class LoginAPI: BaseAPI<LoginNetworking>, LoginAPIProtocol{
     func login(email: String, password: String, role: String, completion: @escaping (Result<LoginModel?, CustomError>) -> Void) {
+        print("data performed using this request is email: \(email), password: \(password), role: \(role)")
         self.performRequest(target: .login(email: email, password: password, role: role), rsponseClass: LoginModel.self) { result in
             completion(result)
         }
