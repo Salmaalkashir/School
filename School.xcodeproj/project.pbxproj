@@ -29,6 +29,16 @@
 		E19210EB2D6BA85A0025B826 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210EA2D6BA85A0025B826 /* SchoolTests.swift */; };
 		E19210F52D6BA85A0025B826 /* SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F42D6BA85A0025B826 /* SchoolUITests.swift */; };
 		E19210F72D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */; };
+		E19211172D6BC0DC0025B826 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211162D6BC0DC0025B826 /* HomeViewController.xib */; };
+		E19211182D6BC0DC0025B826 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211152D6BC0DC0025B826 /* HomeViewController.swift */; };
+		E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */; };
+		E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E192111D2D6BC45F0025B826 /* Alamofire */; };
+		E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */; };
+		E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */; };
+		E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */; };
+		E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */; };
+		E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */; };
+		E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +84,15 @@
 		E19210F02D6BA85A0025B826 /* SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19210F42D6BA85A0025B826 /* SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolUITests.swift; sourceTree = "<group>"; };
 		E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E19211152D6BC0DC0025B826 /* HomeViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../../../../../../../../.Trash/Home/Presentation/Views/HomeViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
+		E19211162D6BC0DC0025B826 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HomeViewController.xib; path = ../../../../../../../../.Trash/Home/Presentation/Views/HomeViewController.xib; sourceTree = "<group>"; };
+		E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; tabWidth = 2; };
+		E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
+		E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsCollectionViewCell.xib; sourceTree = "<group>"; };
+		E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsCollectionViewCell.swift; sourceTree = "<group>"; };
+		E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementsCollectionViewCell.xib; sourceTree = "<group>"; };
+		E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
+		E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +101,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */,
+				E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,6 +147,7 @@
 		1E73EDFF2D6BAA46009719FC /* School */ = {
 			isa = PBXGroup;
 			children = (
+				E19211192D6BC1B20025B826 /* CustomViews */,
 				1E73EE102D6BABF1009719FC /* Modules */,
 			);
 			path = School;
@@ -160,6 +181,7 @@
 		1E73EE102D6BABF1009719FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				E192110C2D6BC03D0025B826 /* Home */,
 				1E73EE112D6BABFA009719FC /* Login */,
 			);
 			path = Modules;
@@ -269,6 +291,61 @@
 			path = SchoolUITests;
 			sourceTree = "<group>";
 		};
+		E192110C2D6BC03D0025B826 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E19211112D6BC08E0025B826 /* Presentation */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E19211112D6BC08E0025B826 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E19211132D6BC0B30025B826 /* Views */,
+				E19211122D6BC0AD0025B826 /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E19211122D6BC0AD0025B826 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E19211132D6BC0B30025B826 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E19211142D6BC0C00025B826 /* Cells */,
+				E19211152D6BC0DC0025B826 /* HomeViewController.swift */,
+				E19211162D6BC0DC0025B826 /* HomeViewController.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E19211142D6BC0C00025B826 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */,
+				E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */,
+				E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */,
+				E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */,
+				E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */,
+				E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		E19211192D6BC1B20025B826 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -285,6 +362,9 @@
 			dependencies = (
 			);
 			name = School;
+			packageProductDependencies = (
+				E192111D2D6BC45F0025B826 /* Alamofire */,
+			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
 			productType = "com.apple.product-type.application";
@@ -358,7 +438,7 @@
 			);
 			mainGroup = E19210C72D6BA8580025B826;
 			packageReferences = (
-				1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */,
+				E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -377,10 +457,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
+				E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
 				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
+				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
+				E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */,
 				1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */,
+				E19211172D6BC0DC0025B826 /* HomeViewController.xib in Resources */,
 				1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -408,15 +492,20 @@
 			files = (
 				1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */,
 				1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */,
+				E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */,
+				E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */,
 				1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */,
 				E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */,
+				E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */,
 				1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */,
 				1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */,
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
+				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
 				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
+				E19211182D6BC0DC0025B826 /* HomeViewController.swift in Sources */,
 				1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -764,12 +853,25 @@
 				minimumVersion = 5.10.2;
 			};
 		};
+		E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.10.2;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
 		1E73EE0E2D6BAB85009719FC /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		E192111D2D6BC45F0025B826 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
