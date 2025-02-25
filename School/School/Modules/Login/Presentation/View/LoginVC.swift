@@ -60,7 +60,7 @@ class LoginVC: NibViewController {
         passwordField.setRightView(icon: UIImage(named: "eyeOpen")!)
 
         welcomeLabel.font = UIFont(name: "Poppins-Medium", size: 28)
-        signLabel.font = UIFont(name: "Poppins-Medium", size: 20)
+       // signLabel.font = UIFont(name: "Poppins-Medium", size: 20)
         roleLabel.font = UIFont(name: "Poppins-Regular", size: 16)
         emailLabel.font = UIFont(name: "Poppins-Regular", size: 16)
         passwordLabel.font = UIFont(name: "Poppins-Regular", size: 16)
