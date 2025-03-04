@@ -76,10 +76,8 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     case announcementsCollectionView: return CGSize(width: 200, height: 120)
     case categoriesCollectionView: 
       let numberOfCellsPerRow: CGFloat = 3
-
-             let spacing: CGFloat = 10 // المسافة بين الخلايا
-             let totalSpacing = spacing * (numberOfCellsPerRow - 1) // إجمالي المسافات
-
+             let spacing: CGFloat = 10 
+             let totalSpacing = spacing * (numberOfCellsPerRow - 1)
              let availableWidth = collectionView.frame.width - totalSpacing
              let cellWidth = availableWidth / numberOfCellsPerRow
              

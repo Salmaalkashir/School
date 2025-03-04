@@ -32,19 +32,7 @@
 		E19210EB2D6BA85A0025B826 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210EA2D6BA85A0025B826 /* SchoolTests.swift */; };
 		E19210F52D6BA85A0025B826 /* SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F42D6BA85A0025B826 /* SchoolUITests.swift */; };
 		E19210F72D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */; };
-
-		E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */; };
-		E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E192111D2D6BC45F0025B826 /* Alamofire */; };
-		E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */; };
-		E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */; };
-		E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */; };
-		E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */; };
-		E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */; };
-		E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */; };
-		E1B2DEF12D6E482600BEB1B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2DEEF2D6E482500BEB1B0 /* HomeViewController.swift */; };
-		E1B2DEF22D6E482600BEB1B0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */; };
-
-
+		E1BFB7612D6E65920078C0A5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E1BFB7602D6E65920078C0A5 /* Alamofire */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,15 +80,6 @@
 		E19210F02D6BA85A0025B826 /* SchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E19210F42D6BA85A0025B826 /* SchoolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolUITests.swift; sourceTree = "<group>"; };
 		E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; tabWidth = 2; };
-		E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = EventsCollectionViewCell.swift; sourceTree = "<group>"; tabWidth = 2; };
-		E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventsCollectionViewCell.xib; sourceTree = "<group>"; };
-		E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsCollectionViewCell.swift; sourceTree = "<group>"; };
-		E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementsCollectionViewCell.xib; sourceTree = "<group>"; };
-		E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesCollectionViewCell.swift; sourceTree = "<group>"; };
-		E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
-		E1B2DEEF2D6E482500BEB1B0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,11 +87,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-
-				E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */,
+				1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */,
 				E1BFB7612D6E65920078C0A5 /* Alamofire in Frameworks */,
 				1E8A8C9A2D6E6AED00EAFDDB /* IQKeyboardManagerSwift in Frameworks */,
-
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,7 +176,6 @@
 		1E73EDFF2D6BAA46009719FC /* School */ = {
 			isa = PBXGroup;
 			children = (
-				E19211192D6BC1B20025B826 /* CustomViews */,
 				1E73EE102D6BABF1009719FC /* Modules */,
 			);
 			path = School;
@@ -233,11 +209,7 @@
 		1E73EE102D6BABF1009719FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-
-				E192110C2D6BC03D0025B826 /* Home */,
-
 				1E64D13D2D6D39DC00966179 /* ForgetPass */,
-
 				1E73EE112D6BABFA009719FC /* Login */,
 			);
 			path = Modules;
@@ -347,61 +319,6 @@
 			path = SchoolUITests;
 			sourceTree = "<group>";
 		};
-		E192110C2D6BC03D0025B826 /* Home */ = {
-			isa = PBXGroup;
-			children = (
-				E19211112D6BC08E0025B826 /* Presentation */,
-			);
-			path = Home;
-			sourceTree = "<group>";
-		};
-		E19211112D6BC08E0025B826 /* Presentation */ = {
-			isa = PBXGroup;
-			children = (
-				E19211132D6BC0B30025B826 /* Views */,
-				E19211122D6BC0AD0025B826 /* ViewModel */,
-			);
-			path = Presentation;
-			sourceTree = "<group>";
-		};
-		E19211122D6BC0AD0025B826 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
-		E19211132D6BC0B30025B826 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				E19211142D6BC0C00025B826 /* Cells */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		E19211142D6BC0C00025B826 /* Cells */ = {
-			isa = PBXGroup;
-			children = (
-				E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */,
-				E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */,
-				E19211232D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift */,
-				E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */,
-				E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */,
-				E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */,
-				E1B2DEEF2D6E482500BEB1B0 /* HomeViewController.swift */,
-				E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */,
-			);
-			path = Cells;
-			sourceTree = "<group>";
-		};
-		E19211192D6BC1B20025B826 /* CustomViews */ = {
-			isa = PBXGroup;
-			children = (
-				E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */,
-			);
-			path = CustomViews;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -419,10 +336,8 @@
 			);
 			name = School;
 			packageProductDependencies = (
-				E192111D2D6BC45F0025B826 /* Alamofire */,
-
+				E1BFB7602D6E65920078C0A5 /* Alamofire */,
 				1E8A8C992D6E6AED00EAFDDB /* IQKeyboardManagerSwift */,
-
 			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
@@ -497,11 +412,8 @@
 			);
 			mainGroup = E19210C72D6BA8580025B826;
 			packageReferences = (
-
-				E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */,
-
+				E1BFB75F2D6E65920078C0A5 /* XCRemoteSwiftPackageReference "Alamofire" */,
 				1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
- 
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -520,16 +432,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
-				E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				1E64D1442D6D3A6C00966179 /* ForgetPassVC.xib in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
 				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
-				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
-				E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */,
 				1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */,
 				1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */,
-				E1B2DEF22D6E482600BEB1B0 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -556,17 +464,12 @@
 			files = (
 				1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */,
 				1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */,
-				E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */,
-				E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */,
 				1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */,
 				1E64D1452D6D3A6C00966179 /* ForgetPassVC.swift in Sources */,
 				E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */,
-				E1B2DEF12D6E482600BEB1B0 /* HomeViewController.swift in Sources */,
-				E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */,
 				1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */,
 				1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */,
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
-				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
@@ -918,8 +821,6 @@
 				minimumVersion = 5.10.2;
 			};
 		};
-		E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-
 		1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
@@ -928,6 +829,7 @@
 				minimumVersion = 8.0.0;
 			};
 		};
+		E1BFB75F2D6E65920078C0A5 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -943,16 +845,16 @@
 			package = 1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
-		E192111D2D6BC45F0025B826 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */;
-
 		1E8A8C992D6E6AED00EAFDDB /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
-		
+		E1BFB7602D6E65920078C0A5 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1BFB75F2D6E65920078C0A5 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E19210C82D6BA8580025B826 /* Project object */;
