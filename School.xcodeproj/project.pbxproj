@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E64D1442D6D3A6C00966179 /* ForgetPassVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E64D1432D6D3A6C00966179 /* ForgetPassVC.xib */; };
+		1E64D1452D6D3A6C00966179 /* ForgetPassVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E64D1422D6D3A6C00966179 /* ForgetPassVC.swift */; };
 		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
 		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
 		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
@@ -22,6 +24,7 @@
 		1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */; };
 		1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */; };
 		1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */; };
+		1E8A8C9A2D6E6AED00EAFDDB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E8A8C992D6E6AED00EAFDDB /* IQKeyboardManagerSwift */; };
 		E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D32D6BA8580025B826 /* AppDelegate.swift */; };
 		E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D52D6BA8580025B826 /* SceneDelegate.swift */; };
 		E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19210DC2D6BA85A0025B826 /* Assets.xcassets */; };
@@ -29,6 +32,7 @@
 		E19210EB2D6BA85A0025B826 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210EA2D6BA85A0025B826 /* SchoolTests.swift */; };
 		E19210F52D6BA85A0025B826 /* SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F42D6BA85A0025B826 /* SchoolUITests.swift */; };
 		E19210F72D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */; };
+
 		E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */; };
 		E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E192111D2D6BC45F0025B826 /* Alamofire */; };
 		E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */; };
@@ -39,6 +43,8 @@
 		E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19211272D6BCE230025B826 /* CategoriesCollectionViewCell.swift */; };
 		E1B2DEF12D6E482600BEB1B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2DEEF2D6E482500BEB1B0 /* HomeViewController.swift */; };
 		E1B2DEF22D6E482600BEB1B0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */; };
+
+
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +65,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E64D1422D6D3A6C00966179 /* ForgetPassVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgetPassVC.swift; sourceTree = "<group>"; };
+		1E64D1432D6D3A6C00966179 /* ForgetPassVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ForgetPassVC.xib; sourceTree = "<group>"; };
 		1E73EE022D6BAAAD009719FC /* NibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
 		1E73EE052D6BAB14009719FC /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		1E73EE072D6BAB29009719FC /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -100,8 +108,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */,
+
 				E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */,
+				E1BFB7612D6E65920078C0A5 /* Alamofire in Frameworks */,
+				1E8A8C9A2D6E6AED00EAFDDB /* IQKeyboardManagerSwift in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +133,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E64D13D2D6D39DC00966179 /* ForgetPass */ = {
+			isa = PBXGroup;
+			children = (
+				1E64D13F2D6D3A2B00966179 /* Presentation */,
+				1E64D13E2D6D39F200966179 /* ForgetPassNewtorking */,
+			);
+			path = ForgetPass;
+			sourceTree = "<group>";
+		};
+		1E64D13E2D6D39F200966179 /* ForgetPassNewtorking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ForgetPassNewtorking;
+			sourceTree = "<group>";
+		};
+		1E64D13F2D6D3A2B00966179 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E64D1412D6D3A4500966179 /* ViewModel */,
+				1E64D1402D6D3A3F00966179 /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E64D1402D6D3A3F00966179 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E64D1422D6D3A6C00966179 /* ForgetPassVC.swift */,
+				1E64D1432D6D3A6C00966179 /* ForgetPassVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E64D1412D6D3A4500966179 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		1E73EDFD2D6BAA33009719FC /* AppLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -181,7 +233,11 @@
 		1E73EE102D6BABF1009719FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+
 				E192110C2D6BC03D0025B826 /* Home */,
+
+				1E64D13D2D6D39DC00966179 /* ForgetPass */,
+
 				1E73EE112D6BABFA009719FC /* Login */,
 			);
 			path = Modules;
@@ -364,6 +420,9 @@
 			name = School;
 			packageProductDependencies = (
 				E192111D2D6BC45F0025B826 /* Alamofire */,
+
+				1E8A8C992D6E6AED00EAFDDB /* IQKeyboardManagerSwift */,
+
 			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
@@ -438,7 +497,11 @@
 			);
 			mainGroup = E19210C72D6BA8580025B826;
 			packageReferences = (
+
 				E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */,
+
+				1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+ 
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -459,6 +522,7 @@
 				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
 				E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
+				1E64D1442D6D3A6C00966179 /* ForgetPassVC.xib in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
 				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
 				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
@@ -495,6 +559,7 @@
 				E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */,
 				E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */,
 				1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */,
+				1E64D1452D6D3A6C00966179 /* ForgetPassVC.swift in Sources */,
 				E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */,
 				E1B2DEF12D6E482600BEB1B0 /* HomeViewController.swift in Sources */,
 				E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */,
@@ -854,6 +919,15 @@
 			};
 		};
 		E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+
+		1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -872,8 +946,13 @@
 		E192111D2D6BC45F0025B826 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
+
+		1E8A8C992D6E6AED00EAFDDB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E8A8C982D6E6AED00EAFDDB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
 		};
+		
 /* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E19210C82D6BA8580025B826 /* Project object */;
