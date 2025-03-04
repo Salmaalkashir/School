@@ -31,6 +31,9 @@ class HomeViewController: UIViewController {
     eventsCollectionView.register(nib, forCellWithReuseIdentifier: "events")
     
     let nib1 = UINib(nibName: "AnnouncementsCollectionViewCell", bundle: nil)
+      
+      
+      
     announcementsCollectionView.register(nib1, forCellWithReuseIdentifier: "announcement")
     
     let nib2 = UINib(nibName: "CategoriesCollectionViewCell", bundle: nil)
