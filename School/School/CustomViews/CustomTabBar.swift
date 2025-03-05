@@ -44,7 +44,7 @@ class CustomTabBar: UITabBarController {
     
     shape.path = path.cgPath
     shape.lineWidth = 3
-    shape.fillColor = UIColor(named: "2nd background")?.cgColor
+    shape.fillColor = UIColor(named: "2nd Background")?.cgColor
     shape.masksToBounds = false
     
     self.tabBar.layer.insertSublayer(shape, at: 0)
