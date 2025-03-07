@@ -17,6 +17,7 @@ class HomeViewController: UIViewController {
   var categoryImage = ["attendance","Quiz", "assignment", "classSchedule", "results", "schoolHoliday", "examSchedule"]
   var categoryTitles = ["Attendance", "Quiz", "Assignment", "Class Schedule", "Results", "School Holiday", "Exam Schedule"]
 
+  
   //MARK: - Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
