@@ -13,11 +13,19 @@ class HomeViewController: UIViewController {
   @IBOutlet private weak var announcementsCollectionView: UICollectionView!
   @IBOutlet private weak var categoriesCollectionView: UICollectionView!
   
-  var categoryImage = ["attendance","quiz", "assignment", "classSchedule", "results", "schoolHoliday", "examSchedule"]
+  //MARK: - Properties
+  var categoryImage = ["attendance","Quiz", "assignment", "classSchedule", "results", "schoolHoliday", "examSchedule"]
   var categoryTitles = ["Attendance", "Quiz", "Assignment", "Class Schedule", "Results", "School Holiday", "Exam Schedule"]
+
+  
+  //MARK: - Life Cycle
   override func viewDidLoad() {
     super.viewDidLoad()
-    
+    setupView()
+  }
+  
+  //MARK: - Setup View
+  private func setupView() {
     eventsCollectionView.dataSource = self
     eventsCollectionView.delegate = self
     
@@ -26,17 +34,10 @@ class HomeViewController: UIViewController {
     
     categoriesCollectionView.dataSource = self
     categoriesCollectionView.delegate = self
-      
-      Helpers.registerNib(nibName: "EventsCollectionViewCell", cellName: "events", view: eventsCollectionView as UICollectionView)
     
-//    let nib = UINib(nibName: , bundle: nil)
-//    .register(nib, forCellWithReuseIdentifier: "events")
-    
-    let nib1 = UINib(nibName: "AnnouncementsCollectionViewCell", bundle: nil)
-    announcementsCollectionView.register(nib1, forCellWithReuseIdentifier: "announcement")
-    
-    let nib2 = UINib(nibName: "CategoriesCollectionViewCell", bundle: nil)
-    categoriesCollectionView.register(nib2, forCellWithReuseIdentifier: "categories")
+    eventsCollectionView.registerNib(cellType: EventsCollectionViewCell.self, identifier: "events")
+    announcementsCollectionView.registerNib(cellType: AnnouncementsCollectionViewCell.self, identifier: "announcement")
+    categoriesCollectionView.registerNib(cellType: CategoriesCollectionViewCell.self,  identifier: "categories")
   }
 }
 
@@ -68,8 +69,18 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     default:
       return UICollectionViewCell()
     }
+  }
   
-
+  func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+    switch collectionView {
+    case eventsCollectionView: break
+    case announcementsCollectionView:
+      if let tabBarController = self.tabBarController as? CustomTabBar {
+        tabBarController.selectedIndex = 1
+      }
+    case categoriesCollectionView: break
+    default: break
+    }
   }
   
   func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
@@ -78,13 +89,11 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     case announcementsCollectionView: return CGSize(width: 200, height: 120)
     case categoriesCollectionView: 
       let numberOfCellsPerRow: CGFloat = 3
-             let spacing: CGFloat = 10 // المسافة بين الخلايا
-             let totalSpacing = spacing * (numberOfCellsPerRow - 1) // إجمالي المسافات
-             let availableWidth = collectionView.frame.width - totalSpacing
-             let cellWidth = availableWidth / numberOfCellsPerRow
-             
-             return CGSize(width: cellWidth, height: 100) //
-     // return CGSize(width: 120, height: 100)
+      let spacing: CGFloat = 10 
+      let totalSpacing = spacing * (numberOfCellsPerRow - 1)
+      let availableWidth = collectionView.frame.width - totalSpacing
+      let cellWidth = availableWidth / numberOfCellsPerRow
+      return CGSize(width: cellWidth, height: 100)
     default: return CGSize(width: 200, height: 120)
     }
   }

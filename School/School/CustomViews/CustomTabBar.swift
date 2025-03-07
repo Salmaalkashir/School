@@ -21,15 +21,15 @@ class CustomTabBar: UITabBarController {
   }
   
   override func viewDidLayoutSubviews() {
-      super.viewDidLayoutSubviews()
-      if let tabBar = self.tabBarController?.tabBar {
-          var tabFrame = tabBar.frame
-          tabFrame.size.height = 80 // عدّل الارتفاع حسب التصميم
-          tabFrame.origin.y = view.frame.height - tabFrame.size.height
-          tabBar.frame = tabFrame
-      }
+    super.viewDidLayoutSubviews()
+    if let tabBar = self.tabBarController?.tabBar {
+      var tabFrame = tabBar.frame
+      tabFrame.size.height = 80
+      tabFrame.origin.y = view.frame.height - tabFrame.size.height
+      tabBar.frame = tabFrame
+    }
   }
-
+  
   
   override func loadView() {
     super.loadView()
@@ -44,7 +44,7 @@ class CustomTabBar: UITabBarController {
     
     shape.path = path.cgPath
     shape.lineWidth = 3
-    shape.fillColor = UIColor(named: "2nd Background")?.cgColor
+    shape.fillColor = UIColor(named: "2nd background")?.cgColor
     shape.masksToBounds = false
     
     self.tabBar.layer.insertSublayer(shape, at: 0)
@@ -53,10 +53,10 @@ class CustomTabBar: UITabBarController {
     self.tabBar.itemSpacing = 100
   }
   
-    //MARK: - TabBarItems
+  //MARK: - TabBarItems
   func addSomeTabItems() {
     let v1 = UINavigationController(rootViewController: HomeViewController())
-    let v2 = UINavigationController(rootViewController: HomeViewController())
+    let v2 = UINavigationController(rootViewController: AnnouncementViewController())
     let v3 = UINavigationController(rootViewController: HomeViewController())
     let v4 = UINavigationController(rootViewController: HomeViewController())
     v1.title = "Home"
@@ -64,7 +64,7 @@ class CustomTabBar: UITabBarController {
     v3.title = "Chat"
     v4.title = "Profile"
     setViewControllers([v1, v2, v3, v4], animated: false)
-  
+    
     guard let items = tabBar.items else { return }
     items[0].image = UIImage(named: "HomeIcon")
     items[1].image = UIImage(named: "AnnouncementIcon")
