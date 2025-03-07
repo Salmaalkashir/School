@@ -26,9 +26,11 @@ class HomeViewController: UIViewController {
     
     categoriesCollectionView.dataSource = self
     categoriesCollectionView.delegate = self
+      
+      Helpers.registerNib(nibName: "EventsCollectionViewCell", cellName: "events", view: eventsCollectionView as UICollectionView)
     
-    let nib = UINib(nibName: "EventsCollectionViewCell", bundle: nil)
-    eventsCollectionView.register(nib, forCellWithReuseIdentifier: "events")
+//    let nib = UINib(nibName: , bundle: nil)
+//    .register(nib, forCellWithReuseIdentifier: "events")
     
     let nib1 = UINib(nibName: "AnnouncementsCollectionViewCell", bundle: nil)
     announcementsCollectionView.register(nib1, forCellWithReuseIdentifier: "announcement")

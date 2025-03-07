@@ -39,6 +39,7 @@
 		E1B2DEF22D6E482600BEB1B0 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */; };
 		E1DE23BF2D7B289A007DE16F /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E1DE23BE2D7B289A007DE16F /* Alamofire */; };
 		E1DE23C22D7B291F007DE16F /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = E1DE23C12D7B291F007DE16F /* IQKeyboardManagerSwift */; };
+		E1DE23C52D7B2CAD007DE16F /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DE23C42D7B2CAD007DE16F /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +94,7 @@
 		E19211282D6BCE230025B826 /* CategoriesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CategoriesCollectionViewCell.xib; sourceTree = "<group>"; };
 		E1B2DEEF2D6E482500BEB1B0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E1B2DEF02D6E482500BEB1B0 /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		E1DE23C42D7B2CAD007DE16F /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,6 +149,7 @@
 		1E73EDFF2D6BAA46009719FC /* School */ = {
 			isa = PBXGroup;
 			children = (
+				E1DE23C32D7B2C9C007DE16F /* Helpers */,
 				E19211192D6BC1B20025B826 /* CustomViews */,
 				1E73EE102D6BABF1009719FC /* Modules */,
 			);
@@ -346,6 +349,14 @@
 			path = CustomViews;
 			sourceTree = "<group>";
 		};
+		E1DE23C32D7B2C9C007DE16F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E1DE23C42D7B2CAD007DE16F /* Helpers.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -505,6 +516,7 @@
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
 				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
+				E1DE23C52D7B2CAD007DE16F /* Helpers.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
 				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
