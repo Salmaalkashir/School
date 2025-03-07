@@ -31,3 +31,6 @@ Carthage/Build/
 # Others
 *.xcodeproj/project.xcworkspace/xcuserdata/
 *.xcodeproj/xcuserdata/
+
+# Xcode scheme management
+*.xcschememanagement
