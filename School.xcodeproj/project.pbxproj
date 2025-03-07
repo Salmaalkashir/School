@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1E40E9B82D77C73C00A86A67 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1E40E9B72D77C73C00A86A67 /* IQKeyboardManagerSwift */; };
 		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
 		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
 		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
 		1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE092D6BAB3F009719FC /* Constant.swift */; };
 		1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE0B2D6BAB56009719FC /* TargetType.swift */; };
-		1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1E73EE0E2D6BAB85009719FC /* Alamofire */; };
 		1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE172D6BAC56009719FC /* LoginVC.xib */; };
 		1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE162D6BAC56009719FC /* LoginVC.swift */; };
 		1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE1A2D6BAC64009719FC /* LoginViewModel.swift */; };
@@ -23,6 +21,8 @@
 		1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */; };
 		1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */; };
 		1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */; };
+		1EA0231B2D7B2738000D8230 /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 1EA0231A2D7B2738000D8230 /* IQKeyboardManagerSwift */; };
+		1EA0231E2D7B2755000D8230 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 1EA0231D2D7B2755000D8230 /* Alamofire */; };
 		E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D32D6BA8580025B826 /* AppDelegate.swift */; };
 		E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210D52D6BA8580025B826 /* SceneDelegate.swift */; };
 		E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E19210DC2D6BA85A0025B826 /* Assets.xcassets */; };
@@ -31,7 +31,6 @@
 		E19210F52D6BA85A0025B826 /* SchoolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F42D6BA85A0025B826 /* SchoolUITests.swift */; };
 		E19210F72D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E19210F62D6BA85A0025B826 /* SchoolUITestsLaunchTests.swift */; };
 		E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111A2D6BC1CC0025B826 /* CustomTabBar.swift */; };
-		E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = E192111D2D6BC45F0025B826 /* Alamofire */; };
 		E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211202D6BCE050025B826 /* EventsCollectionViewCell.xib */; };
 		E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E192111F2D6BCE050025B826 /* EventsCollectionViewCell.swift */; };
 		E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E19211242D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib */; };
@@ -101,9 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E73EE0F2D6BAB85009719FC /* Alamofire in Frameworks */,
-				E192111E2D6BC45F0025B826 /* Alamofire in Frameworks */,
-				1E40E9B82D77C73C00A86A67 /* IQKeyboardManagerSwift in Frameworks */,
+				1EA0231B2D7B2738000D8230 /* IQKeyboardManagerSwift in Frameworks */,
+				1EA0231E2D7B2755000D8230 /* Alamofire in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -365,8 +363,8 @@
 			);
 			name = School;
 			packageProductDependencies = (
-				E192111D2D6BC45F0025B826 /* Alamofire */,
-				1E40E9B72D77C73C00A86A67 /* IQKeyboardManagerSwift */,
+				1EA0231A2D7B2738000D8230 /* IQKeyboardManagerSwift */,
+				1EA0231D2D7B2755000D8230 /* Alamofire */,
 			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
@@ -441,8 +439,8 @@
 			);
 			mainGroup = E19210C72D6BA8580025B826;
 			packageReferences = (
-				E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */,
-				1E40E9B62D77C73C00A86A67 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				1EA023192D7B2738000D8230 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				1EA0231C2D7B2755000D8230 /* XCRemoteSwiftPackageReference "Alamofire" */,
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -851,7 +849,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		1E40E9B62D77C73C00A86A67 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+		1EA023192D7B2738000D8230 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager.git";
 			requirement = {
@@ -859,15 +857,7 @@
 				minimumVersion = 8.0.0;
 			};
 		};
-		1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Alamofire/Alamofire";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.10.2;
-			};
-		};
-		E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+		1EA0231C2D7B2755000D8230 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
 			requirement = {
@@ -878,19 +868,14 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		1E40E9B72D77C73C00A86A67 /* IQKeyboardManagerSwift */ = {
+		1EA0231A2D7B2738000D8230 /* IQKeyboardManagerSwift */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1E40E9B62D77C73C00A86A67 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			package = 1EA023192D7B2738000D8230 /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
 			productName = IQKeyboardManagerSwift;
 		};
-		1E73EE0E2D6BAB85009719FC /* Alamofire */ = {
+		1EA0231D2D7B2755000D8230 /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 1E73EE0D2D6BAB85009719FC /* XCRemoteSwiftPackageReference "Alamofire" */;
-			productName = Alamofire;
-		};
-		E192111D2D6BC45F0025B826 /* Alamofire */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = E192111C2D6BC45F0025B826 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			package = 1EA0231C2D7B2755000D8230 /* XCRemoteSwiftPackageReference "Alamofire" */;
 			productName = Alamofire;
 		};
 /* End XCSwiftPackageProductDependency section */
