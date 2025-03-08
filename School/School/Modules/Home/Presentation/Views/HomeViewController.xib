@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="announcementsCollectionView" destination="AVF-DP-zCZ" id="bp5-vD-L3b"/>
                 <outlet property="categoriesCollectionView" destination="fIz-EO-1Of" id="JHD-nA-t2m"/>
+                <outlet property="categoriesCollectionViewHeight" destination="cgH-Dv-mGy" id="5GE-FV-kTb"/>
                 <outlet property="eventsCollectionView" destination="OLl-P9-0Tg" id="j3c-Ze-UtX"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
@@ -54,7 +55,7 @@
                     <rect key="frame" x="0.0" y="125" width="393" height="825"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B1g-8D-Z6w">
-                            <rect key="frame" x="0.0" y="0.0" width="393" height="805"/>
+                            <rect key="frame" x="0.0" y="0.0" width="393" height="825"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Events" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6G-QI-cxR">
                                     <rect key="frame" x="16" y="16" width="51" height="31"/>
@@ -132,12 +133,12 @@
                             <constraints>
                                 <constraint firstItem="d6G-QI-cxR" firstAttribute="top" secondItem="B1g-8D-Z6w" secondAttribute="top" constant="16" id="4u4-Bo-gAk"/>
                                 <constraint firstItem="Piu-ch-rwR" firstAttribute="top" secondItem="AVF-DP-zCZ" secondAttribute="bottom" constant="24" id="5Qo-3b-Og1"/>
-                                <constraint firstAttribute="height" constant="805" id="9Rk-tN-NzT"/>
                                 <constraint firstItem="DgM-DJ-2gg" firstAttribute="top" secondItem="OLl-P9-0Tg" secondAttribute="bottom" constant="24" id="Abs-fn-lzI"/>
                                 <constraint firstItem="OLl-P9-0Tg" firstAttribute="top" secondItem="RdI-tA-DRW" secondAttribute="bottom" constant="8" id="HGb-9m-8VJ"/>
                                 <constraint firstItem="fIz-EO-1Of" firstAttribute="leading" secondItem="B1g-8D-Z6w" secondAttribute="leading" constant="16" id="Jvc-RQ-k2I"/>
                                 <constraint firstItem="AVF-DP-zCZ" firstAttribute="leading" secondItem="B1g-8D-Z6w" secondAttribute="leading" constant="16" id="Oiv-1z-3u0"/>
                                 <constraint firstItem="CCB-gV-4iV" firstAttribute="top" secondItem="OLl-P9-0Tg" secondAttribute="bottom" constant="16" id="Q4x-ua-9Bf"/>
+                                <constraint firstAttribute="bottom" secondItem="fIz-EO-1Of" secondAttribute="bottom" constant="40" id="Tfe-TI-4Ib"/>
                                 <constraint firstItem="d6G-QI-cxR" firstAttribute="leading" secondItem="B1g-8D-Z6w" secondAttribute="leading" constant="16" id="ZVl-WC-lL7"/>
                                 <constraint firstAttribute="trailing" secondItem="AVF-DP-zCZ" secondAttribute="trailing" constant="16" id="akK-aB-wcz"/>
                                 <constraint firstAttribute="trailing" secondItem="RdI-tA-DRW" secondAttribute="trailing" constant="22" id="bIN-8H-MaJ"/>
@@ -147,7 +148,6 @@
                                 <constraint firstItem="AVF-DP-zCZ" firstAttribute="top" secondItem="DgM-DJ-2gg" secondAttribute="bottom" constant="16" id="hSE-Ds-GvB"/>
                                 <constraint firstItem="fIz-EO-1Of" firstAttribute="top" secondItem="Piu-ch-rwR" secondAttribute="bottom" constant="16" id="iJ8-EM-Qfj"/>
                                 <constraint firstItem="Piu-ch-rwR" firstAttribute="leading" secondItem="B1g-8D-Z6w" secondAttribute="leading" constant="16" id="jkO-4N-s8D"/>
-                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="fIz-EO-1Of" secondAttribute="bottom" constant="20" id="tVm-Nd-2hi"/>
                                 <constraint firstItem="RdI-tA-DRW" firstAttribute="top" secondItem="B1g-8D-Z6w" secondAttribute="top" constant="16" id="ueF-tm-ghJ"/>
                                 <constraint firstAttribute="trailing" secondItem="fIz-EO-1Of" secondAttribute="trailing" constant="16" id="vxJ-gx-ecS"/>
                                 <constraint firstItem="OLl-P9-0Tg" firstAttribute="top" secondItem="d6G-QI-cxR" secondAttribute="bottom" constant="16" id="wAS-5Q-qNU"/>

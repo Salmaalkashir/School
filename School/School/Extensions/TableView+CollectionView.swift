@@ -20,3 +20,20 @@ extension UICollectionView {
     self.register(nib, forCellWithReuseIdentifier: identifier)
   }
 }
+
+extension UIViewController{
+    func calcCollectionHeight(noOfCells: Int, noOfItemInRow: Int, cellHeight: Int, cellSpacing: Int) -> CGFloat{
+        var noOfRows = 0
+        if(noOfCells == 0){
+            return CGFloat(10)
+        }else if(noOfCells <= noOfItemInRow){
+            return CGFloat(cellHeight + cellSpacing)
+        }else if(noOfCells % noOfItemInRow == 0){
+            noOfRows = (noOfCells/noOfItemInRow)
+            return CGFloat(noOfRows * (cellHeight + cellSpacing) + cellSpacing)
+        }else{
+            noOfRows = (noOfCells/noOfItemInRow + 1)
+            return CGFloat((noOfRows * (cellHeight + cellSpacing)) + cellSpacing)
+        }
+    }
+}
