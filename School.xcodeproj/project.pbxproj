@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E2750C62D7CD4F8009FC33C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2750C42D7CD4F8009FC33C /* Localizable.strings */; };
+		1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750C92D7CD5DA009FC33C /* UIKit+Localization.swift */; };
+		1E2750CD2D7CD6C2009FC33C /* MOLH in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2750CC2D7CD6C2009FC33C /* MOLH */; };
 		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
 		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
 		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
@@ -64,6 +67,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1E2750C52D7CD4F8009FC33C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1E2750C72D7CD53E009FC33C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		1E2750C82D7CD53E009FC33C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1E2750C92D7CD5DA009FC33C /* UIKit+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Localization.swift"; sourceTree = "<group>"; };
 		1E73EE022D6BAAAD009719FC /* NibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
 		1E73EE052D6BAB14009719FC /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		1E73EE072D6BAB29009719FC /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -112,6 +119,7 @@
 			files = (
 				E1DE23BF2D7B289A007DE16F /* Alamofire in Frameworks */,
 				E1DE23C22D7B291F007DE16F /* IQKeyboardManagerSwift in Frameworks */,
+				1E2750CD2D7CD6C2009FC33C /* MOLH in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +140,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E2750C32D7CD4E1009FC33C /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				1E2750C42D7CD4F8009FC33C /* Localizable.strings */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
 		1E73EDFD2D6BAA33009719FC /* AppLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +200,7 @@
 		1E73EE042D6BAAD4009719FC /* Resoures */ = {
 			isa = PBXGroup;
 			children = (
+				1E2750C32D7CD4E1009FC33C /* Localization */,
 				1E73EE222D6BBA46009719FC /* fonts */,
 			);
 			path = Resoures;
@@ -381,6 +398,7 @@
 			isa = PBXGroup;
 			children = (
 				E1DE23C42D7B2CAD007DE16F /* TableView+CollectionView.swift */,
+				1E2750C92D7CD5DA009FC33C /* UIKit+Localization.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -404,6 +422,7 @@
 			packageProductDependencies = (
 				E1DE23BE2D7B289A007DE16F /* Alamofire */,
 				E1DE23C12D7B291F007DE16F /* IQKeyboardManagerSwift */,
+				1E2750CC2D7CD6C2009FC33C /* MOLH */,
 			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
@@ -475,11 +494,13 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = E19210C72D6BA8580025B826;
 			packageReferences = (
 				E1DE23BD2D7B289A007DE16F /* XCRemoteSwiftPackageReference "Alamofire" */,
 				E1DE23C02D7B291F007DE16F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+				1E2750CB2D7CD6C2009FC33C /* XCRemoteSwiftPackageReference "MOLH" */,
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -506,6 +527,7 @@
 				E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */,
 				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
 				E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */,
+				1E2750C62D7CD4F8009FC33C /* Localizable.strings in Resources */,
 				1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */,
 				1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */,
 				E1B2DEF22D6E482600BEB1B0 /* HomeViewController.xib in Resources */,
@@ -550,6 +572,7 @@
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E1DE23C52D7B2CAD007DE16F /* TableView+CollectionView.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
+				1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
 				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
 				1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */,
@@ -589,10 +612,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		1E2750C42D7CD4F8009FC33C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E2750C52D7CD4F8009FC33C /* en */,
+				1E2750C82D7CD53E009FC33C /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				E19210DF2D6BA85A0025B826 /* Base */,
+				1E2750C72D7CD53E009FC33C /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -605,6 +638,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -668,6 +702,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -893,6 +928,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		1E2750CB2D7CD6C2009FC33C /* XCRemoteSwiftPackageReference "MOLH" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/MoathOthman/MOLH";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
 		E1DE23BD2D7B289A007DE16F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -912,6 +955,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		1E2750CC2D7CD6C2009FC33C /* MOLH */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1E2750CB2D7CD6C2009FC33C /* XCRemoteSwiftPackageReference "MOLH" */;
+			productName = MOLH;
+		};
 		E1DE23BE2D7B289A007DE16F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = E1DE23BD2D7B289A007DE16F /* XCRemoteSwiftPackageReference "Alamofire" */;
