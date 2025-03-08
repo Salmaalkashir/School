@@ -12,6 +12,7 @@ class HomeViewController: UIViewController {
   @IBOutlet private weak var eventsCollectionView: UICollectionView!
   @IBOutlet private weak var announcementsCollectionView: UICollectionView!
   @IBOutlet private weak var categoriesCollectionView: UICollectionView!
+  @IBOutlet private weak var categoriesCollectionViewHeight: NSLayoutConstraint!
   
   //MARK: - Properties
   var categoryImage = ["attendance","Quiz", "assignment", "classSchedule", "results", "schoolHoliday", "examSchedule"]
@@ -22,6 +23,11 @@ class HomeViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     setupView()
+  }
+  
+  override func viewWillAppear(_ animated: Bool) {
+    categoriesCollectionView.reloadData()
+    handleHeightCollectionView(noOfCells: 7)
   }
   
   //MARK: - Setup View
@@ -87,9 +93,9 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     switch collectionView {
     case eventsCollectionView: return CGSize(width: 345, height: 140)
     case announcementsCollectionView: return CGSize(width: 200, height: 120)
-    case categoriesCollectionView: 
+    case categoriesCollectionView:
       let numberOfCellsPerRow: CGFloat = 3
-      let spacing: CGFloat = 10 
+      let spacing: CGFloat = 10
       let totalSpacing = spacing * (numberOfCellsPerRow - 1)
       let availableWidth = collectionView.frame.width - totalSpacing
       let cellWidth = availableWidth / numberOfCellsPerRow
@@ -97,5 +103,11 @@ extension HomeViewController: UICollectionViewDelegate, UICollectionViewDataSour
     default: return CGSize(width: 200, height: 120)
     }
   }
+  
+ private func handleHeightCollectionView(noOfCells: Int) {
+      let heightCollection = calcCollectionHeight(noOfCells: noOfCells, noOfItemInRow: 3, cellHeight: 100, cellSpacing: 8)
+    categoriesCollectionViewHeight.constant = heightCollection
+  }
+
   
 }
