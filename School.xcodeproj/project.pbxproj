@@ -10,6 +10,9 @@
 		1E2750C62D7CD4F8009FC33C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1E2750C42D7CD4F8009FC33C /* Localizable.strings */; };
 		1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750C92D7CD5DA009FC33C /* UIKit+Localization.swift */; };
 		1E2750CD2D7CD6C2009FC33C /* MOLH in Frameworks */ = {isa = PBXBuildFile; productRef = 1E2750CC2D7CD6C2009FC33C /* MOLH */; };
+		1E2750D02D7CDD91009FC33C /* AnnouncementNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750CF2D7CDD91009FC33C /* AnnouncementNetworking.swift */; };
+		1E2750D22D7CDDAC009FC33C /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750D12D7CDDAC009FC33C /* AnnouncementModel.swift */; };
+		1E2750D42D7CDDC1009FC33C /* AnnouncementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750D32D7CDDC1009FC33C /* AnnouncementAPI.swift */; };
 		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
 		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
 		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
@@ -71,6 +74,9 @@
 		1E2750C72D7CD53E009FC33C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		1E2750C82D7CD53E009FC33C /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		1E2750C92D7CD5DA009FC33C /* UIKit+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIKit+Localization.swift"; sourceTree = "<group>"; };
+		1E2750CF2D7CDD91009FC33C /* AnnouncementNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementNetworking.swift; sourceTree = "<group>"; };
+		1E2750D12D7CDDAC009FC33C /* AnnouncementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementModel.swift; sourceTree = "<group>"; };
+		1E2750D32D7CDDC1009FC33C /* AnnouncementAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementAPI.swift; sourceTree = "<group>"; };
 		1E73EE022D6BAAAD009719FC /* NibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
 		1E73EE052D6BAB14009719FC /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		1E73EE072D6BAB29009719FC /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -146,6 +152,16 @@
 				1E2750C42D7CD4F8009FC33C /* Localizable.strings */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		1E2750CE2D7CDD5C009FC33C /* AnnouncementNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				1E2750CF2D7CDD91009FC33C /* AnnouncementNetworking.swift */,
+				1E2750D12D7CDDAC009FC33C /* AnnouncementModel.swift */,
+				1E2750D32D7CDDC1009FC33C /* AnnouncementAPI.swift */,
+			);
+			path = AnnouncementNetworking;
 			sourceTree = "<group>";
 		};
 		1E73EDFD2D6BAA33009719FC /* AppLayer */ = {
@@ -274,6 +290,7 @@
 		E15D7A9B2D7B699C00124ADC /* Announcement */ = {
 			isa = PBXGroup;
 			children = (
+				1E2750CE2D7CDD5C009FC33C /* AnnouncementNetworking */,
 				E15D7AA22D7B6F3200124ADC /* Cells */,
 				E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */,
 				E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */,
@@ -556,6 +573,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73EE0A2D6BAB3F009719FC /* Constant.swift in Sources */,
+				1E2750D22D7CDDAC009FC33C /* AnnouncementModel.swift in Sources */,
 				1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */,
 				E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */,
 				E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */,
@@ -567,12 +585,14 @@
 				E19211262D6BCE140025B826 /* AnnouncementsCollectionViewCell.swift in Sources */,
 				1E73EE0C2D6BAB56009719FC /* TargetType.swift in Sources */,
 				1E73EE212D6BACCF009719FC /* LoginAPI.swift in Sources */,
+				1E2750D42D7CDDC1009FC33C /* AnnouncementAPI.swift in Sources */,
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
 				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E1DE23C52D7B2CAD007DE16F /* TableView+CollectionView.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
 				1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */,
+				1E2750D02D7CDD91009FC33C /* AnnouncementNetworking.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
 				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
 				1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */,
