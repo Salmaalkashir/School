@@ -27,6 +27,8 @@
 		1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */; };
 		1E73EE2D2D6BBA81009719FC /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */; };
 		1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */; };
+		1E76D6A22DA8E7140039C23A /* EventVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E76D6A12DA8E7140039C23A /* EventVC.xib */; };
+		1E76D6A32DA8E7140039C23A /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76D6A02DA8E7140039C23A /* EventVC.swift */; };
 		E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */; };
 		E15D7AA12D7B69D700124ADC /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */; };
 		E15D7AA52D7B6F4300124ADC /* AnnouncementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D7AA42D7B6F4300124ADC /* AnnouncementTableViewCell.xib */; };
@@ -91,6 +93,8 @@
 		1E73EE292D6BBA81009719FC /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		1E73EE2A2D6BBA81009719FC /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		1E76D6A02DA8E7140039C23A /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
+		1E76D6A12DA8E7140039C23A /* EventVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventVC.xib; sourceTree = "<group>"; };
 		E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementViewController.xib; sourceTree = "<group>"; };
 		E15D7AA32D7B6F4300124ADC /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
@@ -225,6 +229,7 @@
 		1E73EE102D6BABF1009719FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1E76D69A2DA8E5950039C23A /* Event  */,
 				1E73EE112D6BABFA009719FC /* Login */,
 				E192110C2D6BC03D0025B826 /* Home */,
 				E15D7A9B2D7B699C00124ADC /* Announcement */,
@@ -285,6 +290,47 @@
 				1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */,
 			);
 			path = fonts;
+			sourceTree = "<group>";
+		};
+		1E76D69A2DA8E5950039C23A /* Event  */ = {
+			isa = PBXGroup;
+			children = (
+				1E76D69C2DA8E63F0039C23A /* Presentation */,
+				1E76D69B2DA8E5CF0039C23A /* EventVCNetworking */,
+			);
+			path = "Event ";
+			sourceTree = "<group>";
+		};
+		1E76D69B2DA8E5CF0039C23A /* EventVCNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventVCNetworking;
+			sourceTree = "<group>";
+		};
+		1E76D69C2DA8E63F0039C23A /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1E76D69E2DA8E65A0039C23A /* View */,
+				1E76D69F2DA8E6680039C23A /* ViewModel */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1E76D69E2DA8E65A0039C23A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1E76D6A02DA8E7140039C23A /* EventVC.swift */,
+				1E76D6A12DA8E7140039C23A /* EventVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1E76D69F2DA8E6680039C23A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		E15D7A9B2D7B699C00124ADC /* Announcement */ = {
@@ -540,6 +586,7 @@
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
 				E15D7AA52D7B6F4300124ADC /* AnnouncementTableViewCell.xib in Resources */,
+				1E76D6A22DA8E7140039C23A /* EventVC.xib in Resources */,
 				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
 				E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */,
 				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
@@ -594,6 +641,7 @@
 				1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */,
 				1E2750D02D7CDD91009FC33C /* AnnouncementNetworking.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
+				1E76D6A32DA8E7140039C23A /* EventVC.swift in Sources */,
 				1E73EE1B2D6BAC64009719FC /* LoginViewModel.swift in Sources */,
 				1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */,
 			);

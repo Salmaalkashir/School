@@ -50,7 +50,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func openInitalScreen(scene: UIWindowScene) {
         let window = UIWindow(windowScene: scene)
         let loginAPI = LoginAPI()
-        let vc = CustomTabBar()
+        let vc = EventVC()
         let navigation = UINavigationController(rootViewController: vc)
         
         window.rootViewController = navigation
