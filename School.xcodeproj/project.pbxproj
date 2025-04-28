@@ -29,6 +29,9 @@
 		1E73EE2E2D6BBA81009719FC /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */; };
 		1E76D6A22DA8E7140039C23A /* EventVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E76D6A12DA8E7140039C23A /* EventVC.xib */; };
 		1E76D6A32DA8E7140039C23A /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76D6A02DA8E7140039C23A /* EventVC.swift */; };
+		1E8293602DA90FC600EF9C5F /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82935E2DA90FC600EF9C5F /* EventDetailsVC.swift */; };
+		1E8293612DA90FC600EF9C5F /* EventDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E82935F2DA90FC600EF9C5F /* EventDetailsVC.xib */; };
+		1EFA59AC2DA94023009D67C7 /* Custom Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA59AB2DA94023009D67C7 /* Custom Picker.swift */; };
 		E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */; };
 		E15D7AA12D7B69D700124ADC /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */; };
 		E15D7AA52D7B6F4300124ADC /* AnnouncementTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D7AA42D7B6F4300124ADC /* AnnouncementTableViewCell.xib */; };
@@ -95,6 +98,9 @@
 		1E73EE2B2D6BBA81009719FC /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
 		1E76D6A02DA8E7140039C23A /* EventVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventVC.swift; sourceTree = "<group>"; };
 		1E76D6A12DA8E7140039C23A /* EventVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventVC.xib; sourceTree = "<group>"; };
+		1E82935E2DA90FC600EF9C5F /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
+		1E82935F2DA90FC600EF9C5F /* EventDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailsVC.xib; sourceTree = "<group>"; };
+		1EFA59AB2DA94023009D67C7 /* Custom Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Picker.swift"; sourceTree = "<group>"; };
 		E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementViewController.xib; sourceTree = "<group>"; };
 		E15D7AA32D7B6F4300124ADC /* AnnouncementTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementTableViewCell.swift; sourceTree = "<group>"; };
@@ -172,9 +178,9 @@
 			isa = PBXGroup;
 			children = (
 				E19210D32D6BA8580025B826 /* AppDelegate.swift */,
-				E19210DC2D6BA85A0025B826 /* Assets.xcassets */,
 				E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */,
 				E19210D52D6BA8580025B826 /* SceneDelegate.swift */,
+				E19210DC2D6BA85A0025B826 /* Assets.xcassets */,
 			);
 			path = AppLayer;
 			sourceTree = "<group>";
@@ -322,6 +328,9 @@
 			children = (
 				1E76D6A02DA8E7140039C23A /* EventVC.swift */,
 				1E76D6A12DA8E7140039C23A /* EventVC.xib */,
+				1E82935E2DA90FC600EF9C5F /* EventDetailsVC.swift */,
+				1E82935F2DA90FC600EF9C5F /* EventDetailsVC.xib */,
+				1EFA59AB2DA94023009D67C7 /* Custom Picker.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -582,6 +591,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E73EE182D6BAC56009719FC /* LoginVC.xib in Resources */,
+				1E8293612DA90FC600EF9C5F /* EventDetailsVC.xib in Resources */,
 				E19211212D6BCE050025B826 /* EventsCollectionViewCell.xib in Resources */,
 				E19210DD2D6BA85A0025B826 /* Assets.xcassets in Resources */,
 				E19210E02D6BA85A0025B826 /* Base in Resources */,
@@ -635,9 +645,11 @@
 				1E2750D42D7CDDC1009FC33C /* AnnouncementAPI.swift in Sources */,
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
 				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
+				1E8293602DA90FC600EF9C5F /* EventDetailsVC.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E1DE23C52D7B2CAD007DE16F /* TableView+CollectionView.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
+				1EFA59AC2DA94023009D67C7 /* Custom Picker.swift in Sources */,
 				1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */,
 				1E2750D02D7CDD91009FC33C /* AnnouncementNetworking.swift in Sources */,
 				1E73EE1D2D6BAC95009719FC /* LoginNetworing.swift in Sources */,
