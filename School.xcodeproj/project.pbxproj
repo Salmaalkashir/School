@@ -13,6 +13,9 @@
 		1E2750D02D7CDD91009FC33C /* AnnouncementNetworking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750CF2D7CDD91009FC33C /* AnnouncementNetworking.swift */; };
 		1E2750D22D7CDDAC009FC33C /* AnnouncementModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750D12D7CDDAC009FC33C /* AnnouncementModel.swift */; };
 		1E2750D42D7CDDC1009FC33C /* AnnouncementAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2750D32D7CDDC1009FC33C /* AnnouncementAPI.swift */; };
+		1E4403222DCF7348006D0F83 /* UITextField+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4403212DCF7348006D0F83 /* UITextField+Extensions.swift */; };
+		1E4403242DCF7464006D0F83 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4403232DCF7464006D0F83 /* AppConfig.swift */; };
+		1E4403262DCF7525006D0F83 /* UserDefaults+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E4403252DCF7525006D0F83 /* UserDefaults+Extensions.swift */; };
 		1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE022D6BAAAD009719FC /* NibViewController.swift */; };
 		1E73EE062D6BAB14009719FC /* BaseAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE052D6BAB14009719FC /* BaseAPI.swift */; };
 		1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E73EE072D6BAB29009719FC /* BaseModel.swift */; };
@@ -31,6 +34,9 @@
 		1E76D6A32DA8E7140039C23A /* EventVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E76D6A02DA8E7140039C23A /* EventVC.swift */; };
 		1E8293602DA90FC600EF9C5F /* EventDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E82935E2DA90FC600EF9C5F /* EventDetailsVC.swift */; };
 		1E8293612DA90FC600EF9C5F /* EventDetailsVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E82935F2DA90FC600EF9C5F /* EventDetailsVC.xib */; };
+		1EEEA7A62DCAB5DA0093058F /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 1EEEA7A52DCAB5DA0093058F /* FSCalendar */; };
+		1EEEA7AE2DCAB80F0093058F /* EvenetFilterationVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1EEEA7AD2DCAB80F0093058F /* EvenetFilterationVC.xib */; };
+		1EEEA7AF2DCAB80F0093058F /* EvenetFilterationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EEEA7AC2DCAB80F0093058F /* EvenetFilterationVC.swift */; };
 		1EFA59AC2DA94023009D67C7 /* Custom Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFA59AB2DA94023009D67C7 /* Custom Picker.swift */; };
 		E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */; };
 		E15D7AA12D7B69D700124ADC /* AnnouncementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */; };
@@ -82,6 +88,9 @@
 		1E2750CF2D7CDD91009FC33C /* AnnouncementNetworking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementNetworking.swift; sourceTree = "<group>"; };
 		1E2750D12D7CDDAC009FC33C /* AnnouncementModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementModel.swift; sourceTree = "<group>"; };
 		1E2750D32D7CDDC1009FC33C /* AnnouncementAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementAPI.swift; sourceTree = "<group>"; };
+		1E4403212DCF7348006D0F83 /* UITextField+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extensions.swift"; sourceTree = "<group>"; };
+		1E4403232DCF7464006D0F83 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		1E4403252DCF7525006D0F83 /* UserDefaults+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Extensions.swift"; sourceTree = "<group>"; };
 		1E73EE022D6BAAAD009719FC /* NibViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewController.swift; sourceTree = "<group>"; };
 		1E73EE052D6BAB14009719FC /* BaseAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAPI.swift; sourceTree = "<group>"; };
 		1E73EE072D6BAB29009719FC /* BaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseModel.swift; sourceTree = "<group>"; };
@@ -100,6 +109,8 @@
 		1E76D6A12DA8E7140039C23A /* EventVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventVC.xib; sourceTree = "<group>"; };
 		1E82935E2DA90FC600EF9C5F /* EventDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventDetailsVC.swift; sourceTree = "<group>"; };
 		1E82935F2DA90FC600EF9C5F /* EventDetailsVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventDetailsVC.xib; sourceTree = "<group>"; };
+		1EEEA7AC2DCAB80F0093058F /* EvenetFilterationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvenetFilterationVC.swift; sourceTree = "<group>"; };
+		1EEEA7AD2DCAB80F0093058F /* EvenetFilterationVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EvenetFilterationVC.xib; sourceTree = "<group>"; };
 		1EFA59AB2DA94023009D67C7 /* Custom Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Custom Picker.swift"; sourceTree = "<group>"; };
 		E15D7A9E2D7B69D700124ADC /* AnnouncementViewController.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = AnnouncementViewController.swift; sourceTree = "<group>"; tabWidth = 2; };
 		E15D7A9F2D7B69D700124ADC /* AnnouncementViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementViewController.xib; sourceTree = "<group>"; };
@@ -134,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1DE23BF2D7B289A007DE16F /* Alamofire in Frameworks */,
+				1EEEA7A62DCAB5DA0093058F /* FSCalendar in Frameworks */,
 				E1DE23C22D7B291F007DE16F /* IQKeyboardManagerSwift in Frameworks */,
 				1E2750CD2D7CD6C2009FC33C /* MOLH in Frameworks */,
 			);
@@ -174,13 +186,24 @@
 			path = AnnouncementNetworking;
 			sourceTree = "<group>";
 		};
+		1E4403202DCF7319006D0F83 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1E4403212DCF7348006D0F83 /* UITextField+Extensions.swift */,
+				1E4403252DCF7525006D0F83 /* UserDefaults+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		1E73EDFD2D6BAA33009719FC /* AppLayer */ = {
 			isa = PBXGroup;
 			children = (
+				1E4403202DCF7319006D0F83 /* Extensions */,
 				E19210D32D6BA8580025B826 /* AppDelegate.swift */,
 				E19210DE2D6BA85A0025B826 /* LaunchScreen.storyboard */,
 				E19210D52D6BA8580025B826 /* SceneDelegate.swift */,
 				E19210DC2D6BA85A0025B826 /* Assets.xcassets */,
+				1E4403232DCF7464006D0F83 /* AppConfig.swift */,
 			);
 			path = AppLayer;
 			sourceTree = "<group>";
@@ -235,6 +258,7 @@
 		1E73EE102D6BABF1009719FC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				1EEEA7A72DCAB7A10093058F /* EventFilteration */,
 				1E76D69A2DA8E5950039C23A /* Event  */,
 				1E73EE112D6BABFA009719FC /* Login */,
 				E192110C2D6BC03D0025B826 /* Home */,
@@ -336,6 +360,47 @@
 			sourceTree = "<group>";
 		};
 		1E76D69F2DA8E6680039C23A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		1EEEA7A72DCAB7A10093058F /* EventFilteration */ = {
+			isa = PBXGroup;
+			children = (
+				1EEEA7A92DCAB7B60093058F /* EventFilterationNetworking */,
+				1EEEA7A82DCAB7AC0093058F /* Presentation */,
+			);
+			path = EventFilteration;
+			sourceTree = "<group>";
+		};
+		1EEEA7A82DCAB7AC0093058F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				1EEEA7AB2DCAB7D70093058F /* ViewModel */,
+				1EEEA7AA2DCAB7CA0093058F /* View */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		1EEEA7A92DCAB7B60093058F /* EventFilterationNetworking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EventFilterationNetworking;
+			sourceTree = "<group>";
+		};
+		1EEEA7AA2DCAB7CA0093058F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1EEEA7AC2DCAB80F0093058F /* EvenetFilterationVC.swift */,
+				1EEEA7AD2DCAB80F0093058F /* EvenetFilterationVC.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1EEEA7AB2DCAB7D70093058F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -495,6 +560,7 @@
 				E1DE23BE2D7B289A007DE16F /* Alamofire */,
 				E1DE23C12D7B291F007DE16F /* IQKeyboardManagerSwift */,
 				1E2750CC2D7CD6C2009FC33C /* MOLH */,
+				1EEEA7A52DCAB5DA0093058F /* FSCalendar */,
 			);
 			productName = School;
 			productReference = E19210D02D6BA8580025B826 /* School.app */;
@@ -573,6 +639,7 @@
 				E1DE23BD2D7B289A007DE16F /* XCRemoteSwiftPackageReference "Alamofire" */,
 				E1DE23C02D7B291F007DE16F /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
 				1E2750CB2D7CD6C2009FC33C /* XCRemoteSwiftPackageReference "MOLH" */,
+				1EEEA7A42DCAB5DA0093058F /* XCRemoteSwiftPackageReference "FSCalendar" */,
 			);
 			productRefGroup = E19210D12D6BA8580025B826 /* Products */;
 			projectDirPath = "";
@@ -599,6 +666,7 @@
 				1E76D6A22DA8E7140039C23A /* EventVC.xib in Resources */,
 				1E73EE2C2D6BBA81009719FC /* Poppins-Bold.ttf in Resources */,
 				E15D7AA02D7B69D700124ADC /* AnnouncementViewController.xib in Resources */,
+				1EEEA7AE2DCAB80F0093058F /* EvenetFilterationVC.xib in Resources */,
 				E19211252D6BCE140025B826 /* AnnouncementsCollectionViewCell.xib in Resources */,
 				E19211292D6BCE230025B826 /* CategoriesCollectionViewCell.xib in Resources */,
 				1E2750C62D7CD4F8009FC33C /* Localizable.strings in Resources */,
@@ -634,6 +702,7 @@
 				1E73EE1F2D6BACAC009719FC /* LoginModel.swift in Sources */,
 				E192112A2D6BCE230025B826 /* CategoriesCollectionViewCell.swift in Sources */,
 				E192111B2D6BC1CC0025B826 /* CustomTabBar.swift in Sources */,
+				1EEEA7AF2DCAB80F0093058F /* EvenetFilterationVC.swift in Sources */,
 				E15D7AA12D7B69D700124ADC /* AnnouncementViewController.swift in Sources */,
 				1E73EE082D6BAB29009719FC /* BaseModel.swift in Sources */,
 				E19210D42D6BA8580025B826 /* AppDelegate.swift in Sources */,
@@ -645,9 +714,12 @@
 				1E2750D42D7CDDC1009FC33C /* AnnouncementAPI.swift in Sources */,
 				1E73EE192D6BAC56009719FC /* LoginVC.swift in Sources */,
 				E19211222D6BCE050025B826 /* EventsCollectionViewCell.swift in Sources */,
+				1E4403222DCF7348006D0F83 /* UITextField+Extensions.swift in Sources */,
 				1E8293602DA90FC600EF9C5F /* EventDetailsVC.swift in Sources */,
 				1E73EE032D6BAAAD009719FC /* NibViewController.swift in Sources */,
 				E1DE23C52D7B2CAD007DE16F /* TableView+CollectionView.swift in Sources */,
+				1E4403242DCF7464006D0F83 /* AppConfig.swift in Sources */,
+				1E4403262DCF7525006D0F83 /* UserDefaults+Extensions.swift in Sources */,
 				E19210D62D6BA8580025B826 /* SceneDelegate.swift in Sources */,
 				1EFA59AC2DA94023009D67C7 /* Custom Picker.swift in Sources */,
 				1E2750CA2D7CD5DA009FC33C /* UIKit+Localization.swift in Sources */,
@@ -1016,6 +1088,14 @@
 				minimumVersion = 1.2.0;
 			};
 		};
+		1EEEA7A42DCAB5DA0093058F /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
 		E1DE23BD2D7B289A007DE16F /* XCRemoteSwiftPackageReference "Alamofire" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/Alamofire/Alamofire";
@@ -1039,6 +1119,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 1E2750CB2D7CD6C2009FC33C /* XCRemoteSwiftPackageReference "MOLH" */;
 			productName = MOLH;
+		};
+		1EEEA7A52DCAB5DA0093058F /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1EEEA7A42DCAB5DA0093058F /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
 		};
 		E1DE23BE2D7B289A007DE16F /* Alamofire */ = {
 			isa = XCSwiftPackageProductDependency;

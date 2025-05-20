@@ -19,9 +19,8 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="eventDetails" translatesAutoresizingMaskIntoConstraints="NO" id="NpM-BX-qaU">
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="eventDetails" translatesAutoresizingMaskIntoConstraints="NO" id="NpM-BX-qaU">
                     <rect key="frame" x="0.0" y="0.0" width="393" height="172"/>
-                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luxor &amp; Aswan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m2K-Oo-Zxq">
                     <rect key="frame" x="16" y="180" width="113" height="24"/>
@@ -179,6 +178,12 @@
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="NpM-BX-qaU" firstAttribute="height" secondItem="i5M-Pr-FkT" secondAttribute="height" multiplier="0.201878" id="0L0-Ly-30M"/>
+                <constraint firstItem="NpM-BX-qaU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="gwb-B9-PmK"/>
+                <constraint firstItem="NpM-BX-qaU" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="qO0-CG-6BT"/>
+                <constraint firstItem="NpM-BX-qaU" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="rj6-7N-9jl"/>
+            </constraints>
             <point key="canvasLocation" x="107.63358778625954" y="-11.267605633802818"/>
         </view>
     </objects>
